@@ -13,6 +13,7 @@
         <module name="hrm-system-interface" />
         <module name="hrm-system-service" />
         <module name="hrm-zuul-gateway" />
+        <module name="itsource-hrm-spring-boot-starter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="hrm-system-parent" target="1.8" />
       <module name="hrm-system-service" target="1.8" />
       <module name="hrm-zuul-gateway" target="1.8" />
+      <module name="itsource-hrm-spring-boot-starter" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
