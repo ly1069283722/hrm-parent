@@ -21,7 +21,7 @@ import java.util.*;
 public class CodeGenerator {
 
     public static void main(String[] args) {
-        ResourceBundle rb = ResourceBundle.getBundle("system-generator");
+        ResourceBundle rb = ResourceBundle.getBundle("course-generator");
         AutoGenerator mpg = new AutoGenerator();
 // 全局配置
         GlobalConfig gc = new GlobalConfig();
@@ -112,7 +112,7 @@ public class CodeGenerator {
         strategy.setNaming(NamingStrategy.underline_to_camel);
         strategy.setColumnNaming(NamingStrategy.underline_to_camel);
         strategy.setEntityLombokModel(true);
-        strategy.setInclude("t_systemdictionary","t_systemdictionaryitem");//生成的表
+        strategy.setInclude("t_course_type");//生成的表
         strategy.setTablePrefix("t_");
         mpg.setStrategy(strategy);
         mpg.setTemplateEngine(new VelocityTemplateEngine());

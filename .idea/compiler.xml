@@ -9,6 +9,8 @@
         <module name="hrm-basic-generator" />
         <module name="hrm-basic-util" />
         <module name="hrm-congfig-server" />
+        <module name="hrm-course-interface" />
+        <module name="hrm-course-service" />
         <module name="hrm-eureka-server" />
         <module name="hrm-system-interface" />
         <module name="hrm-system-service" />
@@ -21,6 +23,9 @@
       <module name="hrm-basic-parent" target="1.8" />
       <module name="hrm-basic-util" target="1.8" />
       <module name="hrm-congfig-server" target="1.8" />
+      <module name="hrm-course-interface" target="1.8" />
+      <module name="hrm-course-parent" target="1.8" />
+      <module name="hrm-course-service" target="1.8" />
       <module name="hrm-eureka-server" target="1.8" />
       <module name="hrm-parent" target="1.8" />
       <module name="hrm-supports-parent" target="1.8" />
