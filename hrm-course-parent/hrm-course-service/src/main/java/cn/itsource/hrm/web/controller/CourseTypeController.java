@@ -83,4 +83,10 @@ public class CourseTypeController {
         Page<CourseType> page = courseTypeService.page(new Page<CourseType>(query.getPage(), query.getRows()));
         return new PageList<>(page.getTotal(),page.getRecords());
     }
+
+
+    @GetMapping("/treeData")
+    public List<CourseType> treeData(){
+        return courseTypeService.addtree();
+    }
 }
