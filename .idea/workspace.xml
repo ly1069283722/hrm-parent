@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab8316f7-5257-4277-a714-e67f118ba222" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-supports-parent/hrm-zuul-gateway/src/main/java/cn/itsource/hrm/config/GlobalCorsConfig.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm-course-parent/hrm-course-interface/src/main/java/cn/itsource/hrm/domain/CourseType.java" afterPath="$PROJECT_DIR$/hrm-course-parent/hrm-course-interface/src/main/java/cn/itsource/hrm/domain/CourseType.java" />
-      <change beforePath="$PROJECT_DIR$/hrm-course-parent/hrm-course-service/src/main/java/cn/itsource/hrm/service/ICourseTypeService.java" afterPath="$PROJECT_DIR$/hrm-course-parent/hrm-course-service/src/main/java/cn/itsource/hrm/service/ICourseTypeService.java" />
-      <change beforePath="$PROJECT_DIR$/hrm-course-parent/hrm-course-service/src/main/java/cn/itsource/hrm/service/impl/CourseTypeServiceImpl.java" afterPath="$PROJECT_DIR$/hrm-course-parent/hrm-course-service/src/main/java/cn/itsource/hrm/service/impl/CourseTypeServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/hrm-course-parent/hrm-course-service/src/main/java/cn/itsource/hrm/web/controller/CourseTypeController.java" afterPath="$PROJECT_DIR$/hrm-course-parent/hrm-course-service/src/main/java/cn/itsource/hrm/web/controller/CourseTypeController.java" />
-      <change beforePath="$PROJECT_DIR$/hrm-supports-parent/hrm-zuul-gateway/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/hrm-supports-parent/hrm-zuul-gateway/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/hrm-supports-parent/hrm-zuul-gateway/target/classes/application.yml" afterPath="$PROJECT_DIR$/hrm-supports-parent/hrm-zuul-gateway/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/target/classes/cn/itsource/hrm/SystemServiceApplication.class" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/target/classes/cn/itsource/hrm/SystemServiceApplication.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -210,7 +202,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="58" />
     <option name="width" value="1871" />
     <option name="height" value="1053" />
@@ -629,7 +621,7 @@
       <workItem from="1577272958973" duration="8000" />
       <workItem from="1577273121069" duration="4936000" />
       <workItem from="1577323864313" duration="6161000" />
-      <workItem from="1577331388585" duration="8564000" />
+      <workItem from="1577331388585" duration="8624000" />
     </task>
     <task id="LOCAL-00001" summary="忽略">
       <created>1577273351726</created>
@@ -666,14 +658,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577327845055</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="v1.3">
+      <created>1577347594088</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577347594090</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40779000" />
+    <option name="totallyTimeSpent" value="40839000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21339387" sideWeight="0.5019477" order="0" side_tool="true" content_ui="tabs" />
@@ -784,7 +783,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="忽略" />
     <MESSAGE value="v1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.2" />
+    <MESSAGE value="v1.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
