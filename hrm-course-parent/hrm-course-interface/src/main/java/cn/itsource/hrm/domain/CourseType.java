@@ -76,7 +76,7 @@ public class CourseType extends Model<CourseType> {
     //存放所有的子类型
     //查询的时候忽略这个字段
     @TableField(exist = false)
-    private List<CourseType> Childern=new ArrayList<>();
+    private List<CourseType> children=new ArrayList<>();
 
     @Override
     protected Serializable pkVal() {
