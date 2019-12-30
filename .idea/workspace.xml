@@ -1,13 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab8316f7-5257-4277-a714-e67f118ba222" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/web/controller/dto/TenantDto.java" />
+    <list default="true" id="ab8316f7-5257-4277-a714-e67f118ba222" name="Default" comment="v1.4">
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/domain/Department.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/domain/Employee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/domain/EmployeeRole.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/domain/Meal.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/domain/MealPermission.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/domain/Menu.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/domain/Permission.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/domain/Role.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/domain/RolePermission.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/domain/Tenant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/domain/TenantMeal.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/domain/TenantType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/query/DepartmentQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/query/EmployeeQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/query/EmployeeRoleQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/query/MealPermissionQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/query/MealQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/query/MenuQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/query/PermissionQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/query/RolePermissionQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/query/RoleQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/query/TenantMealQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/query/TenantQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java/cn/itsource/hrm/query/TenantTypeQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/mapper/DepartmentMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/mapper/EmployeeMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/mapper/EmployeeRoleMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/mapper/MealMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/mapper/MealPermissionMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/mapper/MenuMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/mapper/PermissionMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/mapper/RoleMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/mapper/RolePermissionMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/mapper/TenantMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/mapper/TenantMealMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/mapper/TenantTypeMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/IDepartmentService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/IEmployeeRoleService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/IEmployeeService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/IMealPermissionService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/IMealService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/IMenuService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/IPermissionService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/IRolePermissionService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/IRoleService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/ITenantMealService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/ITenantService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/ITenantTypeService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/impl/DepartmentServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/impl/EmployeeRoleServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/impl/EmployeeServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/impl/MealPermissionServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/impl/MealServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/impl/MenuServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/impl/PermissionServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/impl/RolePermissionServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/impl/RoleServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/impl/TenantMealServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/impl/TenantServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/service/impl/TenantTypeServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/web/controller/DepartmentController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/web/controller/EmployeeController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/web/controller/MealController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/web/controller/MenuController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/web/controller/PermissionController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/web/controller/RoleController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/web/controller/TenantController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/web/controller/TenantTypeController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/cn/itsource/hrm/mapper/DepartmentMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/cn/itsource/hrm/mapper/EmployeeMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/cn/itsource/hrm/mapper/EmployeeRoleMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/cn/itsource/hrm/mapper/MealMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/cn/itsource/hrm/mapper/MealPermissionMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/cn/itsource/hrm/mapper/MenuMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/cn/itsource/hrm/mapper/PermissionMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/cn/itsource/hrm/mapper/RoleMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/cn/itsource/hrm/mapper/RolePermissionMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/cn/itsource/hrm/mapper/TenantMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/cn/itsource/hrm/mapper/TenantMealMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/cn/itsource/hrm/mapper/TenantTypeMapper.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm-basic-parent/hrm-basic-generator/src/main/java/cn/itsource/hrm/generator/CodeGenerator.java" afterPath="$PROJECT_DIR$/hrm-basic-parent/hrm-basic-generator/src/main/java/cn/itsource/hrm/generator/CodeGenerator.java" />
-      <change beforePath="$PROJECT_DIR$/hrm-basic-parent/hrm-basic-generator/src/main/resources/system-generator.properties" afterPath="$PROJECT_DIR$/hrm-basic-parent/hrm-basic-generator/src/main/resources/system-generator.properties" />
-      <change beforePath="$PROJECT_DIR$/hrm-basic-parent/hrm-basic-generator/target/classes/cn/itsource/hrm/generator/CodeGenerator.class" afterPath="$PROJECT_DIR$/hrm-basic-parent/hrm-basic-generator/target/classes/cn/itsource/hrm/generator/CodeGenerator.class" />
-      <change beforePath="$PROJECT_DIR$/hrm-basic-parent/hrm-basic-generator/target/classes/system-generator.properties" afterPath="$PROJECT_DIR$/hrm-basic-parent/hrm-basic-generator/target/classes/system-generator.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -736,7 +811,7 @@
       <workItem from="1577599280403" duration="2065000" />
       <workItem from="1577602845000" duration="5874000" />
       <workItem from="1577620474910" duration="6837000" />
-      <workItem from="1577667172924" duration="113000" />
+      <workItem from="1577667172924" duration="200000" />
     </task>
     <task id="LOCAL-00001" summary="忽略">
       <created>1577273351726</created>
@@ -794,11 +869,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577495580943</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="v1.4">
+      <created>1577667295365</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577667295366</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78867000" />
+    <option name="totallyTimeSpent" value="78954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
