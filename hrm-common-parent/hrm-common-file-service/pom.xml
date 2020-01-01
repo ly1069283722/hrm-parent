@@ -3,34 +3,46 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>hrm-course-parent</artifactId>
+        <artifactId>hrm-common-parent</artifactId>
         <groupId>cn.itsource</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>hrm-course-service</artifactId>
+    <artifactId>hrm-common-file-service</artifactId>
 
     <dependencies>
-        <!--依赖interface-->
         <dependency>
             <groupId>cn.itsource</groupId>
-            <artifactId>hrm-course-interface</artifactId>
+            <artifactId>hrm-common-file-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--web-starter-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!--eureka client-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <!--config client-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+        <!--fastdfs-->
+        <dependency>
+            <groupId>org.csource.fastdfs</groupId>
+            <artifactId>fastdfs</artifactId>
+            <version>1.2</version>
         </dependency>
         <dependency>
             <groupId>cn.itsource</groupId>
-            <artifactId>itsource-hrm-spring-boot-starter</artifactId>
+            <artifactId>hrm-basic-util</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-        <!--依赖hrm-common-redis-interface-->
-        <dependency>
-            <groupId>cn.itsource</groupId>
-            <artifactId>hrm-common-redis-interface</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
-
     </dependencies>
 
     <build>
@@ -40,7 +52,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <!-- 工程主入口-->
-                    <mainClass>cn.itsource.hrm.CourseServiceApplication</mainClass>
+                    <mainClass>cn.itsource.hrm.FileServiceApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

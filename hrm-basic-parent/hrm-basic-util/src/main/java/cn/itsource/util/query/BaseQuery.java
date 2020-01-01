@@ -34,4 +34,8 @@ public class BaseQuery {
     public void setRows(Integer rows) {
         this.rows = rows;
     }
+
+    public Integer getStart(){
+        return (page-1)*rows;
+    }
 }
